@@ -1,26 +1,25 @@
-* git-xlsx-textconv.pl - git text converter for xlsx file
+# git-xlsx-textconv.pl - git text converter for xlsx file
 
 git diff wrapper for xlsx file.
 
 <img src="http://t.co/5Epi6NXHZ5">
 
-* install
+# install
 
     cpanm Spreadsheet::XLSX
     cp git-xlsx-textconv.pl $PATH/
     
-
-* .gitconfig
+# .gitconfig
 
     [diff "xlsx"]
         binary = true
         textconv = $PATH/git-xlsx-textconv.pl
 
-* .gitattributes in your project repository
+# .gitattributes in your project repository
 
     *.xlsx diff=xlsx
 
-* LICENSE
+# LICENSE
 
 Copyright (C) Kazuhiro Osawa 2014-
 
