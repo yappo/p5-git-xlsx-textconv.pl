@@ -6,8 +6,8 @@ git diff wrapper for xlsx file.
 
 # install
 
-    cpanm Spreadsheet::XLSX
-    cp git-xlsx-textconv.pl $PATH/
+    $ cpanm Spreadsheet::XLSX
+    $ cp git-xlsx-textconv.pl $PATH/
     
 # .gitconfig
 
